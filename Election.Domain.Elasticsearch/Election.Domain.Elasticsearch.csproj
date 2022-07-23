@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>Election.Domain.Elasticsearch</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Election.Core.Elasticsearch\Election.Core.Elasticsearch.csproj" />
+      <ProjectReference Include="..\Election.Domain\Election.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
